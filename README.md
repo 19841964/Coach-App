@@ -1,4 +1,4 @@
-# Advanced Weekly Calendar
+Add calendar project template
 
 Prosty szablon kalendarza tygodniowego w JavaScript.
 
