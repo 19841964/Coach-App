@@ -1,0 +1,39 @@
+/* Główny styl kalendarza */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f9f9f9;
+}
+.controls {
+  margin-bottom: 10px;
+}
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+#calendar {
+  display: flex;
+  flex-wrap: wrap;
+}
+.calendar-day {
+  border: 1px solid #ccc;
+  width: calc(100% / 7 - 2px);
+  height: 100px;
+  box-sizing: border-box;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 10;
+}
+.dark-mode {
+  background: #333;
+  color: #fff;
+}
